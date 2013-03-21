@@ -1,10 +1,11 @@
 lang: en
-title: Middleman Site
-description: description here.
+title: ClerkshipData
+description: A site for sharing information about judicial clerkships and the clerkship application process.
 keywords:
-  - keyword1
-  - keyword2
-  - keyword3
-author: author name
+  - judge
+  - law
+  - clerkship
+  - clerkships
+author: ClerkshipData
 
 google_analytics_id: UA-30635535-2

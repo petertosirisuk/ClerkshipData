@@ -1,0 +1,18 @@
+.hero-unit
+  h1 About Us.
+  p
+     | This is a CS184 student project.
+  p
+
+.row
+  .span6
+    img src="images/peter.jpg" class="img-circle"
+    h2 Peter Tosirisuk
+    p
+      | Third-year law student at Stanford.  
+    p
+  .span6
+    h2 Neil Devani
+    p
+      | Third-year law student at Stanford.
+    p

@@ -61,7 +61,7 @@ html.no-js lang="#{data.site.lang}"
   == "\n"
   body class=(page_classes)
 
-    .navbar.navbar-inverse.navbar-fixed-top
+    .navbar.navbar-fixed-top
       .navbar-inner
         .container
           a.btn.btn-navbar data-toggle="collapse" data-target=".nav-collapse"
@@ -71,28 +71,20 @@ html.no-js lang="#{data.site.lang}"
           a.brand href="#" #{data.site.title}
           .nav-collapse.collapse
             ul.nav
-              li.active: a href="#" Home
-              li: a href="#" About
-              li: a href="#" Contact
+              li: a href="index.html" Home
               li.dropdown
                 a.dropdown-toggle href="#" data-toggle="dropdown"
-                  | Dropdown
+                  | Courts
                   == " "
                   b.caret
                 ul.dropdown-menu
-                  li: a href="#" Action
-                  li: a href="#" Another action
-                  li: a href="#" Something else here
-                  li.divider
-                  li.nav-header Nav header
-                  li: a href="#" Separated link
-                  li: a href="#" One more separated link
+                  li: a href="#" SCOTUS
+                  li: a href="#" Circuit Courts
+                  li: a href="#" District Courts
+              li: a href="#" Judges
             form.navbar-form.pull-right
-              input.span2 type="text" placeholder="Email"
-              = "\n"
-              input.span2 type="password" placeholder="Password"
-              = "\n"
-              button.btn type="submit" Sign in
+              ul.nav
+                li: a href="about.html" About
 
     .container
       == yield
