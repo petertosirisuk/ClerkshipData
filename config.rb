@@ -58,6 +58,18 @@ configure :build do
   # For example, change the Compass output style for deployment
   # activate :minify_css
 
+#Reload changed pages automatically
+activate :livereload
+
+#Blogging extension
+activate :blog do |blog|
+    #set options on blog
+    blog.prefix = "judges"
+    blog.permalink = ":title"
+    blog.layout = "blog"
+    blog.default_extension = ".markdown"
+end
+
   # Minify Javascript on build
   # activate :minify_javascript
 
