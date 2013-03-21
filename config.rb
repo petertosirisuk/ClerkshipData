@@ -47,6 +47,20 @@
 #   end
 # end
 
+#from novemberkilo's middleman-twitter-bootstrap
+helpers do
+  # Calculate the years for a copyright
+  def copyright_years(start_year)
+    end_year = Date.today.year
+    if start_year == end_year
+      start_year.to_s
+    else
+      start_year.to_s + '-' + end_year.to_s
+    end
+  end
+end
+# end paste from middleman-twitter-bootstrap
+
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'javascripts'

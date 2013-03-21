@@ -1,0 +1,27 @@
+// Web fonts
+@import url(http://fonts.googleapis.com/css?family=Montserrat)
+@import url(http://fonts.googleapis.com/css?family=Belgrano)
+
+// Your own styles go here.
+
+// Idiomatic customisation of twitter bootstrap is 
+// via use of variables that they provide for precisely
+// this purpose. For example:
+
+$bodyBackground:  #F1F1F1
+$textColor:       #393536
+$sansFontFamily:  "Montserrat"
+$serifFontFamily: "Belgrano"
+
+body
+  // Without this (borrowed from one of the bootstrap samples) the bootstrap navbar
+  // clobbers the top of the content.
+  padding-top: 60px
+  padding-bottom: 40px
+
+  footer
+    padding-top: 20px
+
+// Twitter Bootstrap
+@import 'bootstrap'
+@import 'bootstrap-responsive'
