@@ -1,0 +1,16 @@
+.row
+  .span4
+    h2 SCOTUS
+    p
+      | Highest Court in the land.
+    p
+  .span4
+    h2 Circuit Courts
+      - data.courts.circuits.each do |f|
+  .span4
+
+    h2 District Courts
+    p
+       | Coming soon
+    p
+
